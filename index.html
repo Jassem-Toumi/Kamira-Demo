@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  <!-- FontAwsome Icons-->
+  <script src="https://kit.fontawesome.com/915e26f000.js" crossorigin="anonymous"></script>
+
+
+  <title>Kamira-Demo</title>
+</head>
+<body>
+  <!-- SCROLL UP BUTTON -->
+  <button onclick="topFunction()" id="myBtn" title="Scroll Up"></button>
+<!---------------Setting the Loader Icon ------------>
+<div id="loader" class="center"></div>
+  <!-- --------------- START THE NAVBAR --------------------->
+  <nav>
+    <div class="logo">
+      <h4>The Photographer</h4>
+    </div>
+    <ul class="nav-links">
+      <li class="On" data-tab-target="#Home">Home</li>
+      <li data-tab-target="#Portfolio">Portfolio</li>
+      <li data-tab-target="#about">About</li>
+      <li data-tab-target="#contact">Contact</li>
+    </ul>
+    <div class="burger">
+      <div class="line-1"></div>
+      <div class="line-2"></div>
+      <div class="line-3"></div>
+    </div>
+  </nav>
+
+
+  <!-- --------StART THE HOME PAGE ---------------- --> 
+<section data-tab-content id="Home" class="active">
+  <!-- -------START THE VIDEO BACKGROUND SECTION --------->
+  <div sub-content class="video-home">
+    <video src="./Kamira-web.mp4" autoplay muted loop></video>
+    <div class="content">
+      <h1>I dont shoot what it looks like... <br> <span>I shoot what it feels like</span></h1>
+    </div>
+  </div>
+
+  <div sub-content class="description-page">
+    <div class="grid-container">
+      <div class="grid-item-1 sliders">
+        <h1>
+          The journey started in 2017 and it continues… I travel the world searching for beauty in everything and shoot
+          it
+          with my
+          Camera.
+        </h1>
+        <div class="list-items">
+          <ul>
+            <li>5 years of experience</li>
+            <li>Worked with individuals and corporations</li>
+            <li>I filmed weddings / events / adventures</li>
+
+          </ul>
+        </div>
+
+
+      </div>
+      <div class="grid-item-2 sliders">
+        <img src="./edited-img-2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-------------START THE PORTFOLIO PAGE --------------->
+<section data-tab-content id="Portfolio">
+  <div class="title-grid">
+    <div class="grid-item1">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="grid-item2">
+      <h2>
+        This is a featured collection of the finest photos I took in the past year.2021.
+      </h2>
+    </div>
+  </div>
+  <div  class="images-grid">
+    <div class="grid-col">
+      <img src="./Portfolio/1.jpg" alt=""><img src="./Portfolio/2.jpg" alt=""><img src="./Portfolio/3.jpg" alt=""><img
+        src="./Portfolio/4.jpg" alt=""><img src="./Portfolio/5.jpg" alt=""><img src="./Portfolio/6.jpg" alt=""><img
+        src="./Portfolio/7.jpg" alt=""><img src="./Portfolio/8.jpg" alt="">
+    </div>
+    <div class="grid-col">
+      <img src="./Portfolio/9.jpg" alt=""><img src="./Portfolio/10.jpg" alt=""><img src="./Portfolio/11.jpg" alt=""><img
+        src="./Portfolio/12.jpg" alt=""><img src="Portfolio/13.jpg" alt=""><img src="./Portfolio/14.jpg" alt=""><img
+        src="./Portfolio/15.jpg" alt=""><img src="./Portfolio/16.jpg" alt="">
+    </div>
+    <div class="grid-col">
+      <img src="./Portfolio/17.jpg" alt=""><img src="./Portfolio/18.jpg" alt=""><img src="./Portfolio/19.jpg"
+        alt=""><img src="./Portfolio/20.jpg" alt=""><img src="./Portfolio/21.jpg" alt=""><img src="./Portfolio/22.jpg"
+        alt=""><img src="./Portfolio/23.jpg" alt=""><img src="./Portfolio/24.jpg" alt="">
+    </div>
+  </div>
+  <div class="grid-quote">
+    <div class="quote">
+      <h1>
+        “Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It
+        remembers
+        little things, long after you have forgotten everything.”
+      </h1> <br>
+      <h2> - Aaron Siskind -
+      </h2>
+
+    </div>
+  </div>
+</section>
+
+<!------------START THE ABOUT ME PAGE  ------------->
+<section data-tab-content id="about" >
+  <div  class="title-grid">
+    <div class="grid-item1">
+      <h1>About Me</h1>
+    </div>
+    <div class="grid-item2">
+      <h2>
+        Very spontaneous . Open for new adventures . Curious about the world
+      </h2>
+    </div>
+  </div>
+
+  <div class="three-images-grid">
+    <div class="grid-image-1 images">
+      <img src="./About-images/left.jpg" alt="">
+    </div>
+    <div class="grid-image-2 images">
+      <img src="./About-images/middle.jpg" alt="">
+    </div>
+    <div class="grid-image-3 images">
+      <img src="./About-images/right.jpg" alt="">
+    </div>
+  </div>
+
+  <div  class="grid-about">
+    <div class="about-text">
+      <h1>Lorem ipsum dolor sit.</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore amet alias blanditiis et earum. Facilis est
+        quis consequuntur ipsa reprehenderit repellendus enim dolorem. Nobis consectetur aliquid! Minus voluptatem
+        sapiente nisi voluptas repudiandae</p>
+    </div>
+    <div class="about-image">
+      <img src="./About-images/main.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+
+<!------------ START THE CONTACR ME PAGE ------------- -->
+
+<section data-tab-content id="contact">
+    <div class="title-grid">
+      <div class="grid-item1">
+        <h1>Contact Me</h1>
+      </div>
+      <div class="grid-item2">
+        <p>
+         You want to get in touch ? you have a business inquiry? or simple you want to say hi? you can use the following form 
+        </p>
+      </div>
+    </div>
+    <!-- Contact Form -->
+    <div class="contact-form"> 
+<form>
+  <div class="names">
+    <div class="input-box">
+      <input type="text" name="First Name" id="FirstName" required>
+      <label for="FirstName">
+        <i class="fas fa-user"></i> First Name</label>
+    </div>
+
+    <div class="input-box">
+      <input type="text" name="Last Name" id="LastName" required>
+      <label for="LastName"> Last Name</label>
+    </div>
+  </div>
+
+  <div class="input-box">
+    <input type="text" id="Subject" required>
+    <label for="Subject">
+      <i class="fas fa-hashtag"></i> Subject</label>
+  </div>
+
+  <div class="input-box">
+    <input type="email" name="Email" id="Email" required>
+    <label for="Email">
+      <i class="fas fa-envelope"></i> Email</label>
+  </div>
+
+
+  <div class="input-box">
+    <textarea id="Message" rows="8" required></textarea>
+    <label for="Message">
+      <i class="fas fa-comment-dots"></i> Your Message</label>
+  </div>
+  <div class="button">
+    <button class="css-button-sliding-to-left--sky" type="submit"> <i class="fas fa-paper-plane"></i> Submit</button>
+  </div>
+
+</form>
+    </div>
+      
+  
+</section>
+
+
+
+<!--------- START THE FOOTER ---------->
+<footer>
+  <div class="social-media">
+    <h2>Follow Me</h2>
+    <div class="icons">
+      <img src="./Icons/facebook.png" alt="">
+      <img src="./Icons/instagram-logo.png" alt="">
+      <img src="./Icons/twitter.png" alt="">
+    </div>
+  </div>
+  <div class="copyright">
+    <h3> Powered by Jassem | Copyright &copy;</h3>
+  </div>
+</footer>
+
+
+  <!-- JS file -->
+  <script src="./script.js"></script>
+</body>
+</html>
